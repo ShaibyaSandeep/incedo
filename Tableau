@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Tableau Dashboard</title>
+</head>
+<body>
+
+<h1>This is Tableau dashboard , where we have use embeded code of published Tableau dashboard</h1>
+<div>
+    <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'>
+    </script>
+    <tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/incedoshaibya/views/ExecutiveDashboard1/ExecutiveDashboard' width='1536' height='763' toolbar='bottom' >
+    </tableau-viz>
+</div>
+
+</body>
+</html>
